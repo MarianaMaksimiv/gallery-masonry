@@ -1,0 +1,19 @@
+body{
+	padding:10px;
+}
+.slides{
+	position:relative;
+	height:300px;
+	width:500px;
+}
+.slides  img{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:-2;
+}
+
+.slides  img.top{
+	z-index:-1;
+}
+

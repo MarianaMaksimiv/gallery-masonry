@@ -1,0 +1,50 @@
+body{
+	background: lightgrey;
+}
+h1, .complete__title{
+	padding: 20px 0;
+	color: darkgrey;
+	font-size: 36px;
+	font-family: Arial;
+	text-shadow: 1px 1px 2px black, 1px 1px 2px blue;
+	text-align: center;
+}
+.wrapper{
+	width: 372px;
+	margin: 0 auto;
+}
+.list{
+
+}
+.item, .add, .complete__text{
+	height: 50px;
+}
+.item__text, .complete__text{
+	display: inline-block;
+	width: 202px;
+	height: 32px;
+	color: darkgrey;
+	font-size: 24px;
+	font-family: Arial;
+	text-shadow: 0px 1px 1px black, 2px 2px 2px white;
+	vertical-align: top;
+	line-height: 32px;
+	padding-left: 12px;
+	overflow: hidden;
+}
+.edit__value, .add__value{
+	width: 200px;
+	padding-left: 10px;
+	color: darkgrey;
+	font-size: 24px;
+	font-family: Arial;
+	vertical-align: top;
+	border-radius: 5px;
+}
+.item__edit, .item__delete, .edit__button, .add__button, .save__button{
+	margin: 0 0;
+	color: darkgrey;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 0px 1px 1px black, 1px 1px 1px white;
+	line-height: 28px;
